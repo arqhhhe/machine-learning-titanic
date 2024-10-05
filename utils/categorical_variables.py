@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
-from util.util import score_dataset
+from utils.util import score_dataset
 
 
 def get_categorical_variables_processed_dataset(X_train, X_valid, y_train, y_valid):
